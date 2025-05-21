@@ -71,7 +71,7 @@ Configured for maximum deliverability and protection:
 ## 🧠 About GIGO Data, Inc.
 
 We believe in zero garbage in — and zero garbage out.  
-GIGO Data< Inc. is an an ethical data ecosystem powered by trust, transparency, and open infrastructure.  
+GIGO Data, Inc. is an an ethical data ecosystem powered by trust, transparency, and open infrastructure.  
 This repository reflects our commitment to technical integrity from Day 1.
 
 ---
