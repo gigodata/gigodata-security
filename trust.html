@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trust & Security – GIGO Data, Inc.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #0070f3;
+    }
+    code {
+      background: #f1f1f1;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 Trust & Email Security</h1>
+  <p>GIGO Data, Inc. is committed to protecting your data, communications, and identity through state-of-the-art technical infrastructure and transparent trust policies.</p>
+
+  <h2>Email Authentication</h2>
+  <ul>
+    <li><strong>SPF:</strong> <code>v=spf1 include:_spf.google.com ~all</code></li>
+    <li><strong>DKIM:</strong> Signed by Google Workspace keys</li>
+    <li><strong>DMARC:</strong> <code>p=quarantine</code>, reports sent to <code>dmarc@gigodata.com</code></li>
+    <li><strong>BIMI:</strong> Published with validated logo</li>
+  </ul>
+
+  <h2>Transport Security</h2>
+  <ul>
+    <li><strong>MTA-STS:</strong> Enforced with long max-age</li>
+    <li><strong>SMTP TLS Reporting:</strong> Enabled via <code>_smtp._tls</code></li>
+  </ul>
+
+  <h2>Contact for Security Issues</h2>
+  <p>If you believe you’ve discovered a vulnerability or issue in our domain configuration or trust stack, please email:</p>
+  <p><a href="mailto:security@gigodata.com">security@gigodata.com</a></p>
+
+  <h2>Public DNS Records</h2>
+  <p>All relevant trust records are published and visible via tools such as:</p>
+  <ul>
+    <li><a href="https://www.uriports.com/tools">URIports DNS Validator</a></li>
+    <li><a href="https://toolbox.googles.com/s/checkmx/">Google CheckMX</a></li>
+  </ul>
+
+  <footer style="margin-top: 2rem; font-size: 0.9em; color: #666;">
+    GIGO Data, Inc. – Built with trust from Day 1.
+  </footer>
+</body>
+</html>
